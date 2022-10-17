@@ -8,12 +8,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #9fa1a4;
+  color: rgba(18, 16, 16, 0.944);
   line-height: 1.5;
 }
 
 a {
-  color: #777;
+  color: #da4;
   text-decoration: none;
   transition: 0.3s all ease;
 }
@@ -43,7 +43,7 @@ h6,
 }
 
 .text-primary {
-  color: #2d71a1 !important;
+  color: #da4 !important;
 }
 
 .border-top {
@@ -71,7 +71,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg,#eae794,#da4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -86,7 +86,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2d71a1;
+  background: #da4;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -100,7 +100,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #3687c1;
+  background: #da4;
   color: #fff;
 }
 
@@ -123,12 +123,12 @@ section {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #2d71a1;
+  color: #da4;
 }
 
 .btn.btn-primary {
-  background: #2d71a1;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: #da4;
+  background: linear-gradient(-45deg, #ece093, #da4);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -148,7 +148,7 @@ section {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+  background: linear-gradient(-45deg, rgb(245, 213, 148), #da4);
 }
 
 .feature-1 .wrap-icon i {
@@ -162,7 +162,7 @@ section {
 }
 
 .feature-1 p {
-  color: #b1b1b1;
+  color: #100f1060;
 }
 
 /* Step */
@@ -173,7 +173,7 @@ section {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #dcf308, #da4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -221,17 +221,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2d71a1;
+  border: 1px solid #da4;
 }
 
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2d71a1;
+  background-color: #da4;
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #f0e275, rgb(240, 217, 8));
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -242,7 +242,7 @@ section {
 }
 
 .pricing h3 {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .pricing .price-cta {
@@ -285,20 +285,20 @@ section {
 }
 
 .pricing .btn-white:hover {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .pricing.popular {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #f4ec06, #da4);
   color: #fff;
   box-shadow: none;
 }
 
 .pricing.popular .popularity {
-  color: #b3b3b3;
+  color: #fbfafa;
 }
 
 .pricing.popular h3 {
@@ -307,12 +307,12 @@ section {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #2d71a1;
+  border: 2px solid #da4;
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, rgb(39, 70, 133) 0%, rgb(61, 179, 197) 100%);
+  background: linear-gradient(to right, rgba(158, 127, 25, 0.7) 0%, rgb(178, 171, 67) 100%);
   color: #fff;
 }
 
@@ -350,7 +350,7 @@ section {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #2d71a1;
+  border: 1px solid #da4;
 }
 
 .php-email-form .validate {
@@ -397,7 +397,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #da4;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -452,11 +452,11 @@ section {
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #2d71a1;
+  color: #da4;
 }
 
 .post-entry .post-text .readmore {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .sidebar-box {
@@ -610,7 +610,7 @@ section {
 }
 
 #header.header-scrolled {
-  background: rgba(39, 70, 133, 0.8);
+  background: rgba(148, 126, 39, 0.7);
   height: 60px;
 }
 
@@ -694,7 +694,7 @@ section {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(235, 161, 3, 0.25)
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -716,7 +716,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .navbar .dropdown:hover>ul {
@@ -777,7 +777,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(27, 49, 94, 0.9);
+  background: #da4;
   transition: 0.3s;
   z-index: 999;
 }
@@ -806,13 +806,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #101c36;
+  color: #da4;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .navbar-mobile .dropdown ul {
@@ -824,7 +824,7 @@ section {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(160, 161, 127, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -842,7 +842,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #2d71a1;
+  color: #da4;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -853,7 +853,7 @@ section {
 # Background Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right, rgba(158, 127, 25, 0.7) 0%, rgb(178, 171, 67) 100%), url(../img/CT\ Background.jpg);
   position: relative;
 }
 
@@ -1017,7 +1017,7 @@ section {
   position: relative;
   text-align: center;
   transition: 0.3s background ease;
-  color: #0d1e2d;
+  color: #2b2d0d;
   line-height: 0;
 }
 
@@ -1031,7 +1031,7 @@ section {
 
 .social a:hover {
   color: #fff;
-  background: #2d71a1;
+  background: #da4;
 }
 
 .social a i {
