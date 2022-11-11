@@ -170,6 +170,10 @@ section {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
   background: #fff;
   padding: 40px;
+  border: 1px solid;
+  border-color: #da4;
+  border-radius: 10px;
+  border-width: 3px;
 }
 
 .step .number {
@@ -239,7 +243,15 @@ section {
   color: #000000;
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  border-color: #da4;
+  border-width: 3px;
+  border-radius: 10px;
 }
+.pricing:hover{
+  background-color: rgba(246, 230, 128, 0.881)
+}
+
 
 .pricing h3 {
   color: #da4;
@@ -253,6 +265,7 @@ section {
   text-align: center;
   left: 0;
 }
+
 
 .pricing .price-cta .price {
   display: block;
@@ -282,6 +295,7 @@ section {
   border: 2px solid rgb(241, 241, 241);
   border-radius: 4px;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  border-color: #da4;
 }
 
 .pricing .btn-white:hover {
@@ -308,6 +322,9 @@ section {
 
 .pricing.popular .btn-white {
   border: 2px solid #da4;
+}
+.text-centre :hover{
+  color: #da4;
 }
 
 /* CTA Section */
